@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacts — NexVia Konect</title>
+<meta name="description" content="Get in touch with NexVia Konect. Office in Kigali, Rwanda. Tell us which division you're interested in.">
+<link rel="icon" type="image/png" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-mark-light.png" alt="NexVia Konect logo">
+      <span class="brand-word">NexVia <span class="k">Konect</span></span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" aria-current="page">Contacts</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get in Touch <span class="mix-grey">With Our Team</span></h1>
+      <p class="lede">Tell us about your project and which division fits best, we'll get back to you.</p>
+    </div>
+  </section>
+
+  <section class="section--tight">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="field">
+              <label for="service">Service of interest</label>
+              <select id="service" name="service">
+                <option value="">Select a division</option>
+                <option value="Konect Terra">Konect Terra — Agriculture, Environment &amp; Water</option>
+                <option value="Konect Vital">Konect Vital — Sports, Healthcare &amp; Workforce</option>
+                <option value="Konect Mobility">Konect Mobility — Transport, Logistics &amp; Cities</option>
+                <option value="Konect Signal">Konect Signal — Telecom, Connectivity &amp; Digital Infrastructure</option>
+                <option value="Konect Industry">Konect Industry — Energy, Industry &amp; Automation</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-grey">Send message</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+
+        <div>
+          <div class="info-block">
+            <h3>Office Address</h3>
+            <p class="addr">KG 1376 Street, Zindiro<br>Gasabo, Kigali<br>RWANDA</p>
+            <a class="link-arrow" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=KG+1376+St,+Kigali,+Rwanda">Get directions →</a>
+          </div>
+          <div class="info-block">
+            <h3>Phone</h3>
+            <p class="big phone-line">
+              <svg class="icon-tel" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+250786254425">+250 786 254 425</a>
+            </p>
+          </div>
+          <div class="info-block">
+            <h3>Email</h3>
+            <p class="big"><a href="mailto:info@nexviakonect.com">info@nexviakonect.com</a></p>
+            <a class="link-arrow" href="mailto:info@nexviakonect.com">Send email →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo-mark-light.png" alt="">
+          <span class="footer-brand-name">NexVia <span class="k">Konect</span></span>
+        </div>
+        <p class="footer-tagline"><span class="k">Konecting</span> to the Next Generation</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="technology.html">Technology</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contacts</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+250786254425">+250 786 254 425</a>
+          <a href="mailto:info@nexviakonect.com">info@nexviakonect.com</a>
+          <p>KG 1376 Street, Zindiro<br>Gasabo, Kigali, Rwanda</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 <span class="brand-white">NexVia</span> <span class="k">Konect</span> LTD. All rights reserved.</span>
+      <span>Kigali, Rwanda</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
