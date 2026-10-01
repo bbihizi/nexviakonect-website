@@ -12,9 +12,8 @@
 <link rel="stylesheet" href="css/style.css">
 <style>
   .tech-page-wrap{ background:#0b1f3a; }
-  .tech-page-image-frame{ position:relative; max-width:1000px; margin:0 auto; overflow:hidden; }
-  .tech-page-image{ display:block; width:100%; height:auto; filter:grayscale(1) brightness(1.05) contrast(1.03); }
-  .tech-page-tint{ position:absolute; inset:0; background:#1a3a63; mix-blend-mode:color; opacity:.9; pointer-events:none; }
+  .tech-page-image-frame{ max-width:1000px; margin:0 auto; overflow:hidden; }
+  .tech-page-image{ display:block; width:100%; height:auto; }
 </style>
 </head>
 <body>
@@ -28,8 +27,8 @@
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="vision.html">Vision</a></li>
         <li><a href="services.html">Services</a></li>
+        <li><a href="vision.html">Vision</a></li>
         <li><a href="technology.html" aria-current="page">Technology</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contacts</a></li>
@@ -43,28 +42,23 @@
   <div class="tech-page-wrap container">
     <div class="tech-page-image-frame">
       <img class="tech-page-image" src="assets/technology-page-content.jpg" alt="NexVia Konect technology stack: a complete IoT technology stack covering connectivity (5G, LTE-M, NB-IoT, LoRaWAN, NTN, Wi-Fi), device and sensor layers, a cloud data platform, AI-driven intelligence, and applications across agriculture, water, livestock, transport, environment and industry.">
-      <div class="tech-page-tint" aria-hidden="true"></div>
     </div>
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-top">
-      <div>
+    <div class="footer-grid">
+      <div class="footer-brand-col">
         <div class="footer-brand">
-          <img src="assets/logo-mark-light.png" alt="">
+          <img src="assets/logo-mark-navy.png" alt="">
           <span class="footer-brand-name">NexVia <span class="k">Konect</span></span>
         </div>
-        <p class="footer-tagline"><span class="k">Konecting</span> to the Next Generation</p>
+        <p class="footer-tagline"><span class="k">Konecting</span> to the Next Generation<span class="dot-sep">&bull;</span><span class="footer-copyright">© 2026 <span class="brand-white">NexVia</span> <span class="k">Konect</span> LTD. All rights reserved.</span></p>
+        <div class="footer-contact-line">
+          Contact<span class="dot-sep">&bull;</span><a href="tel:+250786254425">+250 786 254 425</a><span class="dot-sep">&bull;</span><a href="mailto:info@nexviakonect.com">info@nexviakonect.com</a><span class="dot-sep">&bull;</span><span class="footer-loc">Kigali, Rwanda</span>
+        </div>
       </div>
-      <div class="footer-contact-line">
-        Contact<span class="dot-sep">&bull;</span><a href="tel:+250786254425">+250 786 254 425</a><span class="dot-sep">&bull;</span><a href="mailto:info@nexviakonect.com">info@nexviakonect.com</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 <span class="brand-white">NexVia</span> <span class="k">Konect</span> LTD. All rights reserved.</span>
-      <span>Kigali, Rwanda</span>
     </div>
   </div>
 </footer>
